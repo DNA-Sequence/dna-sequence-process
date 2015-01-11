@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.samuelklein.dna</OriginalElement>
+  <nodes>
+    <node x="158.0" y="485.0">br.com.samuelklein.dna.formula.CalculationGlobal</node>
+    <node x="198.0" y="635.0">br.com.samuelklein.dna.formula.CalculationFactory</node>
+    <node x="348.0" y="325.0">br.com.samuelklein.dna.annotation.SequenceNodeAnnotation</node>
+    <node x="0.0" y="485.0">br.com.samuelklein.dna.formula.CalculationLocal</node>
+    <node x="352.0" y="710.0">br.com.samuelklein.dna.formula.OrganizeNode</node>
+    <node x="303.0" y="785.0">br.com.samuelklein.dna.json.UtilJson</node>
+    <node x="952.0" y="170.0">br.com.samuelklein.dna.bean.Node</node>
+    <node x="212.0" y="560.0">br.com.samuelklein.dna.formula.ListenerTravelsNode</node>
+    <node x="0.0" y="785.0">br.com.samuelklein.dna.formula.TravelsNode</node>
+    <node x="20.75" y="90.0">br.com.samuelklein.dna.bean.interfaces.InputAlignInt</node>
+    <node x="684.5" y="90.0">br.com.samuelklein.dna.bean.interfaces.MatrixInt</node>
+    <node x="70.75" y="405.0">br.com.samuelklein.dna.formula.AbstractCalculation</node>
+    <node x="330.0" y="170.0">br.com.samuelklein.dna.bean.InputResultAlign</node>
+    <node x="0.0" y="635.0">br.com.samuelklein.dna.bean.enums.MethodSequencing</node>
+    <node x="49.039062500000114" y="250.0">br.com.samuelklein.dna.bean.InputAlignGlobalLocal</node>
+    <node x="0.0" y="170.0">br.com.samuelklein.dna.bean.InputAlign</node>
+    <node x="804.0" y="170.0">br.com.samuelklein.dna.bean.OutputAlign</node>
+    <node x="943.5" y="90.0">br.com.samuelklein.dna.bean.interfaces.NodeInt</node>
+    <node x="321.5" y="90.0">br.com.samuelklein.dna.bean.interfaces.InputResultAlignInt</node>
+    <node x="120.0" y="170.0">br.com.samuelklein.dna.bean.interfaces.InputAlignGlobalLocalInt</node>
+    <node x="541.0" y="0.0">br.com.samuelklein.dna.bean.interfaces.BeanInt</node>
+    <node x="0.0" y="560.0">br.com.samuelklein.dna.exception.CalculationException</node>
+    <node x="497.5" y="90.0">br.com.samuelklein.dna.bean.interfaces.OutputResultAlignInt</node>
+    <node x="520.0" y="710.0">br.com.samuelklein.dna.bean.enums.TypeElement</node>
+    <node x="506.0" y="170.0">br.com.samuelklein.dna.bean.OutputResultAlign</node>
+    <node x="795.5" y="90.0">br.com.samuelklein.dna.bean.interfaces.OutputAlignInt</node>
+    <node x="97.25" y="325.0">br.com.samuelklein.dna.formula.Calculation</node>
+    <node x="419.0" y="560.0">br.com.samuelklein.dna.annotation.SequenceNodeType</node>
+    <node x="177.0" y="710.0">br.com.samuelklein.dna.formula.NodeController</node>
+    <node x="0.0" y="710.0">br.com.samuelklein.dna.test.CalculationTest</node>
+    <node x="394.0" y="635.0">br.com.samuelklein.dna.annotation.NodeAnnotation</node>
+    <node x="693.0" y="170.0">br.com.samuelklein.dna.bean.Matrix</node>
+    <node x="157.0" y="785.0">br.com.samuelklein.dna.bean.enums.Connected</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="br.com.samuelklein.dna.bean.interfaces.InputAlignGlobalLocalInt" target="br.com.samuelklein.dna.bean.interfaces.InputAlignInt">
+      <point x="-47.5" y="-15.0" />
+      <point x="167.5" y="145.0" />
+      <point x="108.5" y="145.0" />
+      <point x="29.25" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.InputAlign" target="br.com.samuelklein.dna.bean.interfaces.InputAlignInt">
+      <point x="0.0" y="-15.0" />
+      <point x="-29.25" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.interfaces.OutputAlignInt" target="br.com.samuelklein.dna.bean.interfaces.BeanInt">
+      <point x="0.0" y="-15.0" />
+      <point x="859.5" y="60.0" />
+      <point x="603.8571428571429" y="60.0" />
+      <point x="22.85714285714289" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.interfaces.MatrixInt" target="br.com.samuelklein.dna.bean.interfaces.BeanInt">
+      <point x="0.0" y="-15.0" />
+      <point x="730.0" y="70.0" />
+      <point x="592.4285714285714" y="70.0" />
+      <point x="11.428571428571445" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.interfaces.OutputResultAlignInt" target="br.com.samuelklein.dna.bean.interfaces.BeanInt">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.interfaces.InputAlignInt" target="br.com.samuelklein.dna.bean.interfaces.BeanInt">
+      <point x="0.0" y="-15.0" />
+      <point x="79.25" y="50.0" />
+      <point x="546.7142857142857" y="50.0" />
+      <point x="-34.285714285714334" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.InputAlignGlobalLocal" target="br.com.samuelklein.dna.bean.InputAlign">
+      <point x="-43.25" y="-15.0" />
+      <point x="92.28906250000011" y="225.0" />
+      <point x="50.0" y="225.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.formula.CalculationGlobal" target="br.com.samuelklein.dna.formula.AbstractCalculation">
+      <point x="0.0" y="-15.0" />
+      <point x="230.5" y="460.0" />
+      <point x="189.25" y="460.0" />
+      <point x="39.5" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.Matrix" target="br.com.samuelklein.dna.bean.interfaces.MatrixInt">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.OutputResultAlign" target="br.com.samuelklein.dna.bean.interfaces.OutputResultAlignInt">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.InputResultAlign" target="br.com.samuelklein.dna.bean.interfaces.InputResultAlignInt">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.Node" target="br.com.samuelklein.dna.bean.interfaces.NodeInt">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.interfaces.InputAlignGlobalLocalInt" target="br.com.samuelklein.dna.bean.interfaces.BeanInt">
+      <point x="47.5" y="-15.0" />
+      <point x="262.5" y="60.0" />
+      <point x="558.1428571428571" y="60.0" />
+      <point x="-22.85714285714289" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.interfaces.NodeInt" target="br.com.samuelklein.dna.bean.interfaces.BeanInt">
+      <point x="0.0" y="-15.0" />
+      <point x="985.5" y="50.0" />
+      <point x="615.2857142857142" y="50.0" />
+      <point x="34.28571428571422" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.interfaces.InputResultAlignInt" target="br.com.samuelklein.dna.bean.interfaces.BeanInt">
+      <point x="0.0" y="-15.0" />
+      <point x="399.5" y="70.0" />
+      <point x="569.5714285714286" y="70.0" />
+      <point x="-11.428571428571445" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.formula.AbstractCalculation" target="br.com.samuelklein.dna.formula.Calculation">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.OutputAlign" target="br.com.samuelklein.dna.bean.interfaces.OutputAlignInt">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.formula.CalculationLocal" target="br.com.samuelklein.dna.formula.AbstractCalculation">
+      <point x="0.0" y="-15.0" />
+      <point x="69.0" y="460.0" />
+      <point x="110.25" y="460.0" />
+      <point x="-39.5" y="15.0" />
+    </edge>
+    <edge source="br.com.samuelklein.dna.bean.InputAlignGlobalLocal" target="br.com.samuelklein.dna.bean.interfaces.InputAlignGlobalLocalInt">
+      <point x="43.25" y="-15.0" />
+      <point x="178.7890625000001" y="225.0" />
+      <point x="215.0" y="225.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="437.0" y="407.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
